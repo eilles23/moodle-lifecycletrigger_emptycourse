@@ -1,4 +1,4 @@
-# Moodle Lifecycletrigger Emptycourse
+# moodle-lifecycletrigger_inactivetime
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.rz.hft-stuttgart.de/khan/moodle-lifecycletrigger_emptycourse.git
+git remote add origin https://gitlab.rz.hft-stuttgart.de/khan/moodle-lifecycletrigger_inactivetime.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.rz.hft-stuttgart.de/khan/moodle-lifecycletrigger_emptycourse/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.rz.hft-stuttgart.de/khan/moodle-lifecycletrigger_inactivetime/-/settings/integrations)
 
 ## Collaborate with your team
 
