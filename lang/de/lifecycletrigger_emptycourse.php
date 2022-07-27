@@ -25,8 +25,5 @@
 $string['pluginname'] = 'Leerer Kurs - Trigger';
 $string['privacy:metadata'] = 'Dieses Subplugin speichert keine persönlichen Daten.';
 
-$string['delay'] = 'Ausgeschlossene Inhalte';
-$string['delay_help'] = 'Der Trigger wird ausgeführt, falls die Zeit, die seit dem Start des Kurses vergangen ist, größer ist, als der angegebene Zeitraum.';
-
-$string['exclude'] = 'Empty if not present';
-$string['exclude_help'] = 'A course is empty if none of the following is present';
+$string['exclude'] = 'Ausgeschlossene Inhalte';
+$string['exclude_help'] = 'Kurse mit den folgenden Aktivitäten oder Materialien gelten trotzdem als leer.';

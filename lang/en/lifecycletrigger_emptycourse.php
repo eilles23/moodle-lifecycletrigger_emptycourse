@@ -22,11 +22,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Empty coursee trigger';
+$string['pluginname'] = 'Empty course trigger';
 $string['privacy:metadata'] = 'This subplugin does not store any personal data.';
 
-$string['delay'] = 'Delay';
-$string['delay_help'] = 'The trigger will be invoked if the time passed since the course has started is longer than this delay.';
-
-$string['exclude'] = 'Empty if not present';
-$string['exclude_help'] = 'A course is empty if none of the following is present';
+$string['exclude'] = 'Content to exclude';
+$string['exclude_help'] = 'Courses with the following Activities or Resources will still be count as empty course.';
