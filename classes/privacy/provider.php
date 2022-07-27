@@ -19,11 +19,11 @@ namespace lifecycletrigger_emptycourse\privacy;
 use core_privacy\local\metadata\null_provider;
 
 /**
- * Privacy subsystem implementation for lifecycletrigger_startdatedelay.
+ * Privacy subsystem implementation for lifecycletrigger_emptycourse.
  *
- * @package     lifecycletrigger_startdatedelay
- * @copyright   2022 ISB Bayern
- * @author      Philipp Memmel
+ * @package     lifecycletrigger_emptycourse
+ * @copyright   2022 Jonas Khan HFT
+ * @author      Jonas Khan
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements null_provider {

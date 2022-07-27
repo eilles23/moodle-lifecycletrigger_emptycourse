@@ -3,7 +3,7 @@ This is a trigger-Subplugin for the admin tool [moodle-tool_lifecycle](https://g
 Course without an Activity or Resource are marked for the cleanupprocess of the lifecycle admin tool.
 
 ## Settings
-Site administrators choose between the activities or resources to not be considered.
+Site administrators choose between the activities or resources to not to be considered.
 
 ## Proceeding
 A trigger plugin always receives one course. To determine whether the course should be deleted the plugin 
