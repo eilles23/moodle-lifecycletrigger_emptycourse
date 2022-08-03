@@ -40,27 +40,27 @@ require_once(__DIR__ . '/../../lib.php');
 class emptycourse extends base_automatic {
 
     private  $options = array(
-      	    '1' => 'book',
-      	    '2' => 'resource',
-      	    '3' => 'folder',
-      	    '4' => 'label',
-      	    '5' => 'imscp',
-      	    '6' => 'url',
-      	    '7' => 'page',
-      	    '8' => 'assignment',
-      	    '9' => 'chat',
-      	    '10' => 'choice',
-      	    '11' => 'data',
-      	    '12' => 'feedback',
-      	    '13' => 'glossary',
-      	    '14' => 'lesson',
-      	    '15' => 'quiz',
-      	    '16' => 'scorm',
-      	    '17' => 'survey',
-      	    '18' => 'wiki',
-      	    '19' => 'workshop',
-      	    '20'=> 'forum'
-            );
+      	 '1' => 'book',
+      	 '2' => 'resource',
+      	 '3' => 'folder',
+      	 '4' => 'label',
+      	 '5' => 'imscp',
+      	 '6' => 'url',
+      	 '7' => 'page',
+      	 '8' => 'assignment',
+      	 '9' => 'chat',
+      	 '10' => 'choice',
+      	 '11' => 'data',
+      	 '12' => 'feedback',
+      	 '13' => 'glossary',
+      	 '14' => 'lesson',
+      	 '15' => 'quiz',
+      	 '16' => 'scorm',
+      	 '17' => 'survey',
+      	 '18' => 'wiki',
+      	 '19' => 'workshop',
+      	 '20'=> 'forum'
+         );
 
     /**
      * Checks the course and returns a repsonse, which tells if the course should be further processed.
@@ -83,19 +83,19 @@ class emptycourse extends base_automatic {
     public function get_course_recordset_where($triggerid) {
         $exclude = settings_manager::get_settings($triggerid, settings_type::TRIGGER)['exclude'];
         $options = $this->options;
-        
+
         if ($exclude != ''){
-        	$excludeasarray = explode(',',$exclude);
-        	foreach($excludeasarray as $key){
-        		unset($options[$key]);
-        	}
-	}      	
-               
+            $excludeasarray = explode(',',$exclude);
+            foreach($excludeasarray as $key) {
+                unset($options[$key]);
+            }
+	}
+
         $sql = "1=1";
         foreach ($options as $type) {
-          $sql .= " AND {course}.id not in (SELECT course FROM {".$type."})";
+            $sql .= " AND {course}.id not in (SELECT course FROM {".$type."})";
         }
-                
+
         return array($sql, array());
     }
 
