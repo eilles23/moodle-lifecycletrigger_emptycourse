@@ -22,7 +22,7 @@
  * @copyright  2017 Tobias Reischmann WWU
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace lifecycletrigger_startdatedelay;
+namespace lifecycletrigger_emptycourse;
 
 use tool_lifecycle\local\entity\trigger_subplugin;
 use tool_lifecycle\processor;

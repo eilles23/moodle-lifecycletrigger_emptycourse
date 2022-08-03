@@ -31,14 +31,14 @@ use tool_lifecycle\local\manager\workflow_manager;
 use tool_lifecycle\settings_type;
 
 /**
- * lifecycletrigger_startdatedelay generator tests
+ * lifecycletrigger_emptycourse generator tests
  *
- * @package    lifecycletrigger_startdatedelay
+ * @package    lifecycletrigger_emptycourse
  * @category   test
- * @copyright  2018 Tobias Reischmann WWU
+ * @copyright  2022 Jonas Khan HFT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class tool_lifecycle_trigger_startdatedelay_generator extends testing_module_generator {
+class tool_lifecycle_trigger_emptycourse_generator extends testing_module_generator {
 
     /**
      * Creates a trigger startdatedelay for an artificial workflow without steps.
